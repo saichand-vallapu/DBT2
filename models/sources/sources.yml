@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: DEMO_SC
+    schema: RAW_SCHEMA
+    tables:
+      - name: CUSTOMERS
