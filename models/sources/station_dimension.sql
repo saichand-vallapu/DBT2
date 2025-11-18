@@ -1,3 +1,4 @@
+{{ config(materialized="table") }}
 with bike1 as (
     select 
     distinct
