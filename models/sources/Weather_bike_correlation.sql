@@ -1,3 +1,4 @@
+{{ config(materialized="table") }}
 with CTE as (
     select *
     from 
