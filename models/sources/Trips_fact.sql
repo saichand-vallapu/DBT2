@@ -9,7 +9,7 @@ select
     END_STATION_ID as END_STATION_ID ,
     MEMBER_CSUAL as MEMBER_CASUAL,
     TIMESTAMPDIFF( SECOND , TRY_TO_TIMESTAMP(STARTED_AT) ,TRY_TO_TIMESTAMP(ENDED_AT)) as TimeDiff
-    from {{source("raw_data","BIKE2018_AFTERTRANS")}}
+    from {{source("raw_data","Bike")}}
     where ride_id!='ride_id'
 )
 

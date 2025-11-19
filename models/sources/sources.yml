@@ -5,11 +5,9 @@ sources:
     database: DEMO_SC
     schema: RAW_SCHEMA
     tables:
-      - name: CUSTOMERS
       - name: Weather
       - name: Bike
       
-      - name: BIKE2018_AFTERTRANS
 
 
       
